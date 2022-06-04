@@ -1,0 +1,29 @@
+.layout_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout_headerMenu.layout_headerMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.layout_content {
+  padding: 24px;
+}
+
+.form_item.form_item label {
+  font-size: 16px;
+}
+
+.form_button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+:global(.ant-upload-list) {
+  display: none;
+}
